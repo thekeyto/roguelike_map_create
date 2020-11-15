@@ -254,8 +254,8 @@ public class controlMap : MonoBehaviour
                 if (flag==false)
                 {
                     Debug.Log(tempx.ToString() + " " + tempy.ToString());
-                    setground((tempx + x) / 2, (tempy + y) / 2);
                     x = roomlink[nowlink].Item1; y = roomlink[nowlink].Item2;
+                    setground((tempx + x) / 2, (tempy + y) / 2);
                     id[(tempx + x) / 2, (tempy + y) / 2] = findfa(i);
                     vis[(tempx + x) / 2, (tempy + y) / 2] = 1;
                     if (id[tempx,tempy]!=-1)fa[id[tempx, tempy]] = findfa(i);
