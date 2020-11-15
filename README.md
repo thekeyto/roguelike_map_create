@@ -1,2 +1,7 @@
-# rougueLike_Map_Create
 # roguelike_map_create
+
+一种随机地图的生成算法
+1.生成房间
+2.随机洪水填充生成路径
+3.随机连接路径和房间
+4.清除多余路径和死胡同
